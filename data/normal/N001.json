@@ -1,0 +1,62 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Example Articles API",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/articles/{article_id}": {
+      "get": {
+        "summary": "Get article",
+        "parameters": [
+          {
+            "name": "article_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Article",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Article"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Article": {
+        "type": "object",
+        "required": [
+          "id",
+          "title"
+        ],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "Article identifier"
+          },
+          "title": {
+            "type": "string",
+            "description": "Article title"
+          },
+          "description": {
+            "type": "string",
+            "nullable": true,
+            "description": "Article description"
+          }
+        }
+      }
+    }
+  }
+}

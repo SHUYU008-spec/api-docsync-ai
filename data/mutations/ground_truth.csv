@@ -1,0 +1,41 @@
+case_id,defect_type,location,mutation_note
+M001,type_mismatch,components.schemas.Article.properties.id,Changed the declared type of components.schemas.Article.properties.id
+M002,required_field,components.schemas.Article.properties.title,Removed title from the required list for components.schemas.Article.properties.title
+M003,missing_field,components.schemas.Article.properties.description,Removed property description from components.schemas.Article.properties
+M004,description_drift,GET /articles/{article_id},Changed the summary of GET /articles/{article_id}
+M005,type_mismatch,components.schemas.Article.properties.title,Changed the declared type of components.schemas.Article.properties.title
+M006,required_field,components.schemas.Article.properties.description,Added description to the required list for components.schemas.Article.properties.description
+M007,missing_field,components.schemas.Article.properties.id,Removed property id from components.schemas.Article.properties
+M008,description_drift,GET /articles/{article_id},Changed the summary of GET /articles/{article_id}
+M009,type_mismatch,components.schemas.Article.properties.description,Changed the declared type of components.schemas.Article.properties.description
+M010,required_field,components.schemas.Article.properties.id,Removed id from the required list for components.schemas.Article.properties.id
+M011,missing_field,components.schemas.Article.properties.title,Removed property title from components.schemas.Article.properties
+M012,description_drift,GET /articles/{article_id},Changed the summary of GET /articles/{article_id}
+M013,type_mismatch,components.schemas.Article.properties.id,Changed the declared type of components.schemas.Article.properties.id
+M014,required_field,components.schemas.Article.properties.title,Removed title from the required list for components.schemas.Article.properties.title
+M015,missing_field,components.schemas.Article.properties.description,Removed property description from components.schemas.Article.properties
+M016,description_drift,GET /articles/{article_id},Changed the summary of GET /articles/{article_id}
+M017,type_mismatch,components.schemas.Article.properties.title,Changed the declared type of components.schemas.Article.properties.title
+M018,required_field,components.schemas.Article.properties.description,Added description to the required list for components.schemas.Article.properties.description
+M019,missing_field,components.schemas.Article.properties.id,Removed property id from components.schemas.Article.properties
+M020,description_drift,GET /articles/{article_id},Changed the summary of GET /articles/{article_id}
+M021,type_mismatch,components.schemas.Article.properties.description,Changed the declared type of components.schemas.Article.properties.description
+M022,required_field,components.schemas.Article.properties.id,Removed id from the required list for components.schemas.Article.properties.id
+M023,missing_field,components.schemas.Article.properties.title,Removed property title from components.schemas.Article.properties
+M024,description_drift,GET /articles/{article_id},Changed the summary of GET /articles/{article_id}
+M025,type_mismatch,components.schemas.Article.properties.id,Changed the declared type of components.schemas.Article.properties.id
+M026,required_field,components.schemas.Article.properties.title,Removed title from the required list for components.schemas.Article.properties.title
+M027,missing_field,components.schemas.Article.properties.description,Removed property description from components.schemas.Article.properties
+M028,description_drift,GET /articles/{article_id},Changed the summary of GET /articles/{article_id}
+M029,type_mismatch,components.schemas.Article.properties.title,Changed the declared type of components.schemas.Article.properties.title
+M030,required_field,components.schemas.Article.properties.description,Added description to the required list for components.schemas.Article.properties.description
+M031,missing_field,components.schemas.Article.properties.id,Removed property id from components.schemas.Article.properties
+M032,description_drift,GET /articles/{article_id},Changed the summary of GET /articles/{article_id}
+M033,type_mismatch,components.schemas.Article.properties.description,Changed the declared type of components.schemas.Article.properties.description
+M034,required_field,components.schemas.Article.properties.id,Removed id from the required list for components.schemas.Article.properties.id
+M035,missing_field,components.schemas.Article.properties.title,Removed property title from components.schemas.Article.properties
+M036,description_drift,GET /articles/{article_id},Changed the summary of GET /articles/{article_id}
+M037,type_mismatch,components.schemas.Article.properties.id,Changed the declared type of components.schemas.Article.properties.id
+M038,required_field,components.schemas.Article.properties.title,Removed title from the required list for components.schemas.Article.properties.title
+M039,missing_field,components.schemas.Article.properties.description,Removed property description from components.schemas.Article.properties
+M040,description_drift,GET /articles/{article_id},Changed the summary of GET /articles/{article_id}

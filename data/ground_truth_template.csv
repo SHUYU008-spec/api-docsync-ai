@@ -1,0 +1,2 @@
+case_id,defect_type,location
+M001,type_mismatch,components.schemas.Article.properties.id

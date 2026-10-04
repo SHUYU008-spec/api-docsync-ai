@@ -1,0 +1,41 @@
+case_id,defect_type,location,mutation_note
+M001,type_mismatch,components.schemas.Article.properties.id,Applied one type_mismatch mutation to components.schemas.Article.properties.id.id
+M002,required_field,components.schemas.Article.properties.title,Applied one required_field mutation to components.schemas.Article.properties.title.title
+M003,missing_field,components.schemas.Article.properties.description,Applied one missing_field mutation to components.schemas.Article.properties.description.description
+M004,description_drift,GET /articles/{article_id},Applied one description_drift mutation to components.schemas.Article.properties.id.id
+M005,type_mismatch,components.schemas.Article.properties.title,Applied one type_mismatch mutation to components.schemas.Article.properties.title.title
+M006,required_field,components.schemas.Article.properties.description,Applied one required_field mutation to components.schemas.Article.properties.description.description
+M007,missing_field,components.schemas.Article.properties.id,Applied one missing_field mutation to components.schemas.Article.properties.id.id
+M008,description_drift,GET /articles/{article_id},Applied one description_drift mutation to components.schemas.Article.properties.title.title
+M009,type_mismatch,components.schemas.Article.properties.description,Applied one type_mismatch mutation to components.schemas.Article.properties.description.description
+M010,required_field,components.schemas.Article.properties.id,Applied one required_field mutation to components.schemas.Article.properties.id.id
+M011,missing_field,components.schemas.Article.properties.title,Applied one missing_field mutation to components.schemas.Article.properties.title.title
+M012,description_drift,GET /articles/{article_id},Applied one description_drift mutation to components.schemas.Article.properties.description.description
+M013,type_mismatch,components.schemas.Article.properties.id,Applied one type_mismatch mutation to components.schemas.Article.properties.id.id
+M014,required_field,components.schemas.Article.properties.title,Applied one required_field mutation to components.schemas.Article.properties.title.title
+M015,missing_field,components.schemas.Article.properties.description,Applied one missing_field mutation to components.schemas.Article.properties.description.description
+M016,description_drift,GET /articles/{article_id},Applied one description_drift mutation to components.schemas.Article.properties.id.id
+M017,type_mismatch,components.schemas.Article.properties.title,Applied one type_mismatch mutation to components.schemas.Article.properties.title.title
+M018,required_field,components.schemas.Article.properties.description,Applied one required_field mutation to components.schemas.Article.properties.description.description
+M019,missing_field,components.schemas.Article.properties.id,Applied one missing_field mutation to components.schemas.Article.properties.id.id
+M020,description_drift,GET /articles/{article_id},Applied one description_drift mutation to components.schemas.Article.properties.title.title
+M021,type_mismatch,components.schemas.Article.properties.description,Applied one type_mismatch mutation to components.schemas.Article.properties.description.description
+M022,required_field,components.schemas.Article.properties.id,Applied one required_field mutation to components.schemas.Article.properties.id.id
+M023,missing_field,components.schemas.Article.properties.title,Applied one missing_field mutation to components.schemas.Article.properties.title.title
+M024,description_drift,GET /articles/{article_id},Applied one description_drift mutation to components.schemas.Article.properties.description.description
+M025,type_mismatch,components.schemas.Article.properties.id,Applied one type_mismatch mutation to components.schemas.Article.properties.id.id
+M026,required_field,components.schemas.Article.properties.title,Applied one required_field mutation to components.schemas.Article.properties.title.title
+M027,missing_field,components.schemas.Article.properties.description,Applied one missing_field mutation to components.schemas.Article.properties.description.description
+M028,description_drift,GET /articles/{article_id},Applied one description_drift mutation to components.schemas.Article.properties.id.id
+M029,type_mismatch,components.schemas.Article.properties.title,Applied one type_mismatch mutation to components.schemas.Article.properties.title.title
+M030,required_field,components.schemas.Article.properties.description,Applied one required_field mutation to components.schemas.Article.properties.description.description
+M031,missing_field,components.schemas.Article.properties.id,Applied one missing_field mutation to components.schemas.Article.properties.id.id
+M032,description_drift,GET /articles/{article_id},Applied one description_drift mutation to components.schemas.Article.properties.title.title
+M033,type_mismatch,components.schemas.Article.properties.description,Applied one type_mismatch mutation to components.schemas.Article.properties.description.description
+M034,required_field,components.schemas.Article.properties.id,Applied one required_field mutation to components.schemas.Article.properties.id.id
+M035,missing_field,components.schemas.Article.properties.title,Applied one missing_field mutation to components.schemas.Article.properties.title.title
+M036,description_drift,GET /articles/{article_id},Applied one description_drift mutation to components.schemas.Article.properties.description.description
+M037,type_mismatch,components.schemas.Article.properties.id,Applied one type_mismatch mutation to components.schemas.Article.properties.id.id
+M038,required_field,components.schemas.Article.properties.title,Applied one required_field mutation to components.schemas.Article.properties.title.title
+M039,missing_field,components.schemas.Article.properties.description,Applied one missing_field mutation to components.schemas.Article.properties.description.description
+M040,description_drift,GET /articles/{article_id},Applied one description_drift mutation to components.schemas.Article.properties.id.id

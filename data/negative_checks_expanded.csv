@@ -1,0 +1,15 @@
+case_id,defect_type,location
+N001,missing_operation,GET /articles/{article_id}
+N001,description_drift,GET /articles/{article_id}
+N001,undocumented_in_code,GET /articles/{article_id}
+N001,missing_path_parameter,GET /articles/{article_id}:article_id
+N001,extra_path_parameter,GET /articles/{article_id}:article_id
+N001,missing_field,GET /articles/{article_id}:Article.id
+N001,type_mismatch,GET /articles/{article_id}:Article.id
+N001,required_field,GET /articles/{article_id}:Article.id
+N001,missing_field,GET /articles/{article_id}:Article.title
+N001,type_mismatch,GET /articles/{article_id}:Article.title
+N001,required_field,GET /articles/{article_id}:Article.title
+N001,missing_field,GET /articles/{article_id}:Article.description
+N001,type_mismatch,GET /articles/{article_id}:Article.description
+N001,required_field,GET /articles/{article_id}:Article.description
