@@ -1,0 +1,41 @@
+case_id,defect_type,location,message,evidence
+M001,type_mismatch,GET /articles/{article_id}:Article.id,Python model field type is integer but OpenAPI declares string.,code=integer; openapi=string
+M002,required_field,GET /articles/{article_id}:Article.title,Required status differs for field 'title'.,code_required=True; openapi_required=False
+M003,missing_field,GET /articles/{article_id}:Article.description,Response model field 'description' is missing from the OpenAPI response schema.,
+M004,description_drift,GET /articles/{article_id},Python docstring first line differs from OpenAPI summary.,code=Get article; openapi=MUTATED summary: intentionally inconsistent with implementation.
+M005,type_mismatch,GET /articles/{article_id}:Article.title,Python model field type is string but OpenAPI declares integer.,code=string; openapi=integer
+M006,required_field,GET /articles/{article_id}:Article.description,Required status differs for field 'description'.,code_required=False; openapi_required=True
+M007,missing_field,GET /articles/{article_id}:Article.id,Response model field 'id' is missing from the OpenAPI response schema.,
+M008,description_drift,GET /articles/{article_id},Python docstring first line differs from OpenAPI summary.,code=Get article; openapi=MUTATED summary: intentionally inconsistent with implementation.
+M009,type_mismatch,GET /articles/{article_id}:Article.description,Python model field type is string but OpenAPI declares integer.,code=string; openapi=integer
+M010,required_field,GET /articles/{article_id}:Article.id,Required status differs for field 'id'.,code_required=True; openapi_required=False
+M011,missing_field,GET /articles/{article_id}:Article.title,Response model field 'title' is missing from the OpenAPI response schema.,
+M012,description_drift,GET /articles/{article_id},Python docstring first line differs from OpenAPI summary.,code=Get article; openapi=MUTATED summary: intentionally inconsistent with implementation.
+M013,type_mismatch,GET /articles/{article_id}:Article.id,Python model field type is integer but OpenAPI declares string.,code=integer; openapi=string
+M014,required_field,GET /articles/{article_id}:Article.title,Required status differs for field 'title'.,code_required=True; openapi_required=False
+M015,missing_field,GET /articles/{article_id}:Article.description,Response model field 'description' is missing from the OpenAPI response schema.,
+M016,description_drift,GET /articles/{article_id},Python docstring first line differs from OpenAPI summary.,code=Get article; openapi=MUTATED summary: intentionally inconsistent with implementation.
+M017,type_mismatch,GET /articles/{article_id}:Article.title,Python model field type is string but OpenAPI declares integer.,code=string; openapi=integer
+M018,required_field,GET /articles/{article_id}:Article.description,Required status differs for field 'description'.,code_required=False; openapi_required=True
+M019,missing_field,GET /articles/{article_id}:Article.id,Response model field 'id' is missing from the OpenAPI response schema.,
+M020,description_drift,GET /articles/{article_id},Python docstring first line differs from OpenAPI summary.,code=Get article; openapi=MUTATED summary: intentionally inconsistent with implementation.
+M021,type_mismatch,GET /articles/{article_id}:Article.description,Python model field type is string but OpenAPI declares integer.,code=string; openapi=integer
+M022,required_field,GET /articles/{article_id}:Article.id,Required status differs for field 'id'.,code_required=True; openapi_required=False
+M023,missing_field,GET /articles/{article_id}:Article.title,Response model field 'title' is missing from the OpenAPI response schema.,
+M024,description_drift,GET /articles/{article_id},Python docstring first line differs from OpenAPI summary.,code=Get article; openapi=MUTATED summary: intentionally inconsistent with implementation.
+M025,type_mismatch,GET /articles/{article_id}:Article.id,Python model field type is integer but OpenAPI declares string.,code=integer; openapi=string
+M026,required_field,GET /articles/{article_id}:Article.title,Required status differs for field 'title'.,code_required=True; openapi_required=False
+M027,missing_field,GET /articles/{article_id}:Article.description,Response model field 'description' is missing from the OpenAPI response schema.,
+M028,description_drift,GET /articles/{article_id},Python docstring first line differs from OpenAPI summary.,code=Get article; openapi=MUTATED summary: intentionally inconsistent with implementation.
+M029,type_mismatch,GET /articles/{article_id}:Article.title,Python model field type is string but OpenAPI declares integer.,code=string; openapi=integer
+M030,required_field,GET /articles/{article_id}:Article.description,Required status differs for field 'description'.,code_required=False; openapi_required=True
+M031,missing_field,GET /articles/{article_id}:Article.id,Response model field 'id' is missing from the OpenAPI response schema.,
+M032,description_drift,GET /articles/{article_id},Python docstring first line differs from OpenAPI summary.,code=Get article; openapi=MUTATED summary: intentionally inconsistent with implementation.
+M033,type_mismatch,GET /articles/{article_id}:Article.description,Python model field type is string but OpenAPI declares integer.,code=string; openapi=integer
+M034,required_field,GET /articles/{article_id}:Article.id,Required status differs for field 'id'.,code_required=True; openapi_required=False
+M035,missing_field,GET /articles/{article_id}:Article.title,Response model field 'title' is missing from the OpenAPI response schema.,
+M036,description_drift,GET /articles/{article_id},Python docstring first line differs from OpenAPI summary.,code=Get article; openapi=MUTATED summary: intentionally inconsistent with implementation.
+M037,type_mismatch,GET /articles/{article_id}:Article.id,Python model field type is integer but OpenAPI declares string.,code=integer; openapi=string
+M038,required_field,GET /articles/{article_id}:Article.title,Required status differs for field 'title'.,code_required=True; openapi_required=False
+M039,missing_field,GET /articles/{article_id}:Article.description,Response model field 'description' is missing from the OpenAPI response schema.,
+M040,description_drift,GET /articles/{article_id},Python docstring first line differs from OpenAPI summary.,code=Get article; openapi=MUTATED summary: intentionally inconsistent with implementation.

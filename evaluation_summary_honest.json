@@ -1,0 +1,54 @@
+{
+  "generator_mutation_set": {
+    "loose_defect_type_recall": 1.0,
+    "strict_tp": 10,
+    "strict_fn": 30,
+    "strict_fp": 30,
+    "note": "strict FN/FP are LOCATION mismatches (generator vs detector location strings differ), not detection misses"
+  },
+  "handwritten_adversarial_set": {
+    "tp": 0,
+    "fn": 1,
+    "fp": 1,
+    "tn": 1,
+    "cases": [
+      {
+        "case_id": "H1_request_body_mismatch",
+        "expected_findings": 1,
+        "predicted_findings": 0,
+        "outcome": "FN",
+        "why": "Detector never inspects request bodies -> a str/integer title mismatch is missed entirely.",
+        "predicted": []
+      },
+      {
+        "case_id": "H2_paraphrase_summary",
+        "expected_findings": 0,
+        "predicted_findings": 1,
+        "outcome": "FP",
+        "why": "Naive string-equality description check over-flags a semantically-equivalent summary.",
+        "predicted": [
+          {
+            "defect_type": "description_drift",
+            "location": "GET /articles/{article_id}"
+          }
+        ]
+      },
+      {
+        "case_id": "H3_clean_endpoint",
+        "expected_findings": 0,
+        "predicted_findings": 0,
+        "outcome": "TN",
+        "why": "Consistent endpoint correctly reported with no findings.",
+        "predicted": []
+      }
+    ]
+  },
+  "fpr_on_negative_set": {
+    "tn": 14,
+    "fp": 0,
+    "fpr": 0.0,
+    "clean_spec_findings": 0,
+    "note": "FPR is computed GENUINELY: the detector was run on the un-mutated base spec (examples/openapi.yaml) and produced 0 findings, so none of the 14 enumerated consistent contract units are falsely flagged. H2 is nonetheless a REAL FP on a clean endpoint the negative set did not enumerate (paraphrased summary)."
+  },
+  "headline": "Designed generator set: defect-type Recall=1.00, but only 10/40 exact when location is required. Handwritten adversarial set: TP=0 FN=1 FP=1 TN=1 -- the system is NOT failure-free: it misses request-body mismatches entirely and over-flags paraphrased summaries."
+}

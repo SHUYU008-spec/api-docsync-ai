@@ -1,0 +1,11 @@
+{
+  "ground_truth_positive_cases": 40,
+  "predicted_findings": 40,
+  "TP": 40,
+  "FN": 0,
+  "FP": 0,
+  "TN": 14,
+  "Recall": 1.0,
+  "FPR": 0.0,
+  "note": "Positive matching uses case_id+defect_type (generator/detector locations differ by design). Negative matching adds location so each consistent contract element is its own true-negative unit, giving a meaningful FPR denominator. Negative set generated from the un-mutated spec via scripts/build_negative_set.py."
+}

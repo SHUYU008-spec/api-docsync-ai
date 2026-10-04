@@ -1,0 +1,11 @@
+{
+  "ground_truth_positive_cases": 40,
+  "predicted_findings": 40,
+  "TP": 40,
+  "FN": 0,
+  "FP": 0,
+  "TN": 1,
+  "Recall": 1.0,
+  "FPR": 0.0,
+  "note": "Matching uses case_id + defect_type because location labels may differ between generator and detector. For a valid FPR, negative_checks must enumerate normal evaluation units and use the same case_id + defect_type key."
+}
